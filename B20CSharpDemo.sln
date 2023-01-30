@@ -137,9 +137,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultidimensionalArrayDemo",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq Sessions", "Linq Sessions", "{B9F9911D-82E9-4127-999F-42A566A43E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqIntro", "LinqIntro\LinqIntro.csproj", "{D3AF770E-5413-46F4-B90F-4B34BA6A434B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqIntro", "LinqIntro\LinqIntro.csproj", "{D3AF770E-5413-46F4-B90F-4B34BA6A434B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilteringOperatorsDemo", "FilteringOperatorsDemo\FilteringOperatorsDemo.csproj", "{AA3261C9-1B50-4250-9D04-57E95DDCB098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilteringOperatorsDemo", "FilteringOperatorsDemo\FilteringOperatorsDemo.csproj", "{AA3261C9-1B50-4250-9D04-57E95DDCB098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingOperatorsDemo", "SortingOperatorsDemo\SortingOperatorsDemo.csproj", "{8EAC7498-63C1-4C9B-8572-E083BEE7B8D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupingOperatorsDemo", "GroupingOperatorsDemo\GroupingOperatorsDemo.csproj", "{B5E57521-67DE-42BC-AB5A-395FFF5A2E92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -419,6 +423,14 @@ Global
 		{AA3261C9-1B50-4250-9D04-57E95DDCB098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA3261C9-1B50-4250-9D04-57E95DDCB098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA3261C9-1B50-4250-9D04-57E95DDCB098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAC7498-63C1-4C9B-8572-E083BEE7B8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAC7498-63C1-4C9B-8572-E083BEE7B8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAC7498-63C1-4C9B-8572-E083BEE7B8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAC7498-63C1-4C9B-8572-E083BEE7B8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E57521-67DE-42BC-AB5A-395FFF5A2E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E57521-67DE-42BC-AB5A-395FFF5A2E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E57521-67DE-42BC-AB5A-395FFF5A2E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E57521-67DE-42BC-AB5A-395FFF5A2E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -426,6 +438,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D3AF770E-5413-46F4-B90F-4B34BA6A434B} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
 		{AA3261C9-1B50-4250-9D04-57E95DDCB098} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
+		{8EAC7498-63C1-4C9B-8572-E083BEE7B8D6} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
+		{B5E57521-67DE-42BC-AB5A-395FFF5A2E92} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5166E5B2-F79F-4128-8FAB-42D2F9BE58D5}
