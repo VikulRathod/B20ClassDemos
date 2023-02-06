@@ -145,9 +145,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingOperatorsDemo", "Sor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupingOperatorsDemo", "GroupingOperatorsDemo\GroupingOperatorsDemo.csproj", "{B5E57521-67DE-42BC-AB5A-395FFF5A2E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectionOperatorsDemo", "ProjectionOperatorsDemo\ProjectionOperatorsDemo.csproj", "{4A030919-6EA5-4118-A557-344F818BD852}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectionOperatorsDemo", "ProjectionOperatorsDemo\ProjectionOperatorsDemo.csproj", "{4A030919-6EA5-4118-A557-344F818BD852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregationOperatorsQuantifiersDemo", "AggregationOperatorsQuantifiersDemo\AggregationOperatorsQuantifiersDemo.csproj", "{D77286A8-FA3F-4AA5-9C9E-2F3036375E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregationOperatorsQuantifiersDemo", "AggregationOperatorsQuantifiersDemo\AggregationOperatorsQuantifiersDemo.csproj", "{D77286A8-FA3F-4AA5-9C9E-2F3036375E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementsOperatorsDemo", "ElementsOperatorsDemo\ElementsOperatorsDemo.csproj", "{773F24D6-79F5-4632-99DB-6E1E565AAC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOperatorsDemo", "SetOperatorsDemo\SetOperatorsDemo.csproj", "{285862FC-0CB9-441F-850A-FD99506984E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -443,6 +447,14 @@ Global
 		{D77286A8-FA3F-4AA5-9C9E-2F3036375E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77286A8-FA3F-4AA5-9C9E-2F3036375E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77286A8-FA3F-4AA5-9C9E-2F3036375E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773F24D6-79F5-4632-99DB-6E1E565AAC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773F24D6-79F5-4632-99DB-6E1E565AAC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773F24D6-79F5-4632-99DB-6E1E565AAC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773F24D6-79F5-4632-99DB-6E1E565AAC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285862FC-0CB9-441F-850A-FD99506984E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285862FC-0CB9-441F-850A-FD99506984E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285862FC-0CB9-441F-850A-FD99506984E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285862FC-0CB9-441F-850A-FD99506984E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -454,6 +466,8 @@ Global
 		{B5E57521-67DE-42BC-AB5A-395FFF5A2E92} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
 		{4A030919-6EA5-4118-A557-344F818BD852} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
 		{D77286A8-FA3F-4AA5-9C9E-2F3036375E6C} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
+		{773F24D6-79F5-4632-99DB-6E1E565AAC40} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
+		{285862FC-0CB9-441F-850A-FD99506984E3} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5166E5B2-F79F-4128-8FAB-42D2F9BE58D5}
