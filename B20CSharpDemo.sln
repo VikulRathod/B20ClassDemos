@@ -149,9 +149,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectionOperatorsDemo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregationOperatorsQuantifiersDemo", "AggregationOperatorsQuantifiersDemo\AggregationOperatorsQuantifiersDemo.csproj", "{D77286A8-FA3F-4AA5-9C9E-2F3036375E6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementsOperatorsDemo", "ElementsOperatorsDemo\ElementsOperatorsDemo.csproj", "{773F24D6-79F5-4632-99DB-6E1E565AAC40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementsOperatorsDemo", "ElementsOperatorsDemo\ElementsOperatorsDemo.csproj", "{773F24D6-79F5-4632-99DB-6E1E565AAC40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOperatorsDemo", "SetOperatorsDemo\SetOperatorsDemo.csproj", "{285862FC-0CB9-441F-850A-FD99506984E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetOperatorsDemo", "SetOperatorsDemo\SetOperatorsDemo.csproj", "{285862FC-0CB9-441F-850A-FD99506984E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitioningOperatorsDemo", "PartitioningOperatorsDemo\PartitioningOperatorsDemo.csproj", "{79F38E87-CC28-4FD7-B854-6F73E9043AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinOperatorsDemo", "JoinOperatorsDemo\JoinOperatorsDemo.csproj", "{A84464F5-C597-4176-A386-97B4D3DE3490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -455,6 +459,14 @@ Global
 		{285862FC-0CB9-441F-850A-FD99506984E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{285862FC-0CB9-441F-850A-FD99506984E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{285862FC-0CB9-441F-850A-FD99506984E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F38E87-CC28-4FD7-B854-6F73E9043AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F38E87-CC28-4FD7-B854-6F73E9043AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F38E87-CC28-4FD7-B854-6F73E9043AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F38E87-CC28-4FD7-B854-6F73E9043AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84464F5-C597-4176-A386-97B4D3DE3490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84464F5-C597-4176-A386-97B4D3DE3490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84464F5-C597-4176-A386-97B4D3DE3490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84464F5-C597-4176-A386-97B4D3DE3490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -468,6 +480,8 @@ Global
 		{D77286A8-FA3F-4AA5-9C9E-2F3036375E6C} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
 		{773F24D6-79F5-4632-99DB-6E1E565AAC40} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
 		{285862FC-0CB9-441F-850A-FD99506984E3} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
+		{79F38E87-CC28-4FD7-B854-6F73E9043AD6} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
+		{A84464F5-C597-4176-A386-97B4D3DE3490} = {B9F9911D-82E9-4127-999F-42A566A43E6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5166E5B2-F79F-4128-8FAB-42D2F9BE58D5}
